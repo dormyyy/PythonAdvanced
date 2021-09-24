@@ -1,0 +1,5 @@
+a = str(input())
+b = str(input())
+a = set(a.split(" "))
+b = set(b.split(" "))
+print(*(a.union(b)))
