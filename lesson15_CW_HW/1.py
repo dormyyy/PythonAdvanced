@@ -1,4 +1,4 @@
-def decor1(n):
+def decor1(n): #задание 2
     def decor(func):
         def inner(*args, **kwargs):
             for i in range(n):
