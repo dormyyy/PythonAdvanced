@@ -1,4 +1,4 @@
-def check_decortator(role=1):
+def check_decortator(role=1): #задание 3
     def decor(func):
         def inner(*args, **kwargs):
             n = args[0]
